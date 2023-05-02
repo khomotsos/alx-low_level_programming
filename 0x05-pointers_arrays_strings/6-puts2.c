@@ -19,7 +19,7 @@ void puts2(char *str)
 
 	/* prints every other character of the string */
 
-	for (int i = 0; i < len; i += 2)
+	for(int i = 0; i < len; i += 2)
 
 	{
 		_putchar(str[i]);
